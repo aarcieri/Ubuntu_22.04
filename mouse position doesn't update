@@ -1,0 +1,5 @@
+  sudo nano /etc/gdm3/custom.conf
+add if not exist this line:
+  WaylandEnable=false
+then restart
+  sudo systemctl restart gdm3
